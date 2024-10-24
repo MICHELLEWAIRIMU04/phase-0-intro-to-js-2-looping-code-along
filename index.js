@@ -3,6 +3,11 @@ function countDown(num) {
       console.log(i);
     }
   }
+
+  function writeCards(names, occasion) {
+    return names.map(name => `Thank you, ${name}, for the wonderful ${occasion} gift!`);
+  }
+  
   
   describe('index.js', () => {
     let spy;
